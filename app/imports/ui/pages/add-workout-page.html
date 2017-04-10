@@ -1,11 +1,11 @@
-<template name="Add_Stuff_Page">
+<template name="Add_Workout_Page">
   {{#If_Logged_In}}
 
     <div style="padding-top: 20px" class="ui text container">
       {{> quickForm
-      collection=stuffCollection
+      collection=workoutCollection
       template="semanticUI"
-      id="AddStuffForm"
+      id="AddWorkoutForm"
       type="insert"
       resetOnSuccess=true}}
     </div>

@@ -1,0 +1,29 @@
+<template name="List_Workout_Page">
+  {{#If_Logged_In}}
+    <div class="ui text container">
+      {{#if Template.subscriptionsReady}}
+        <table style="margin-top: 20px" class="ui celled table">
+          <thead>
+          <tr>
+            <th>Name</th>
+            <th>Workout</th>
+            <th>Edit</th>
+          </tr>
+          </thead>
+
+          <tbody>
+          {{#each workout in workoutList}}
+            <tr>
+              <td>{{workout.name}}</td>
+              <td>{{workout.time}}</td>
+              <td><a href="{{pathFor 'Edit_Workout_Page' _id=workout._id}}">Edit</a></td>
+            </tr>
+          {{/each}}
+          </tbody>
+        </table>
+      {{else}}
+        {{> Loading}}
+      {{/if}}
+    </div>
+  {{/If_Logged_In}}
+</template>
