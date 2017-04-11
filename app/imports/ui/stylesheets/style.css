@@ -6,10 +6,13 @@
 
 .ui.text.container {
   max-width: 455px !important;
-  background-color: white;
+  background-color: #75CE89;
 }
 
-body{
-  background: url(https://manoa.hawaii.edu/studentrec/fitnesscenter/pics/DSC_WRC.JPG) no-repeat center;
+body {
+  background: url(/images/WRC.png) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
   background-size: cover;
 }
