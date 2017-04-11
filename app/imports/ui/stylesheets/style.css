@@ -16,3 +16,8 @@ body {
   -o-background-size: cover;
   background-size: cover;
 }
+
+.ui.personal.container{
+  background-color:  white;
+  margin-bottom: 80px;
+}

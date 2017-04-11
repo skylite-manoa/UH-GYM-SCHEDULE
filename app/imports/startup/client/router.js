@@ -22,10 +22,10 @@ FlowRouter.route('/personal-page', {
   },
 });
 
-FlowRouter.route('/stuff/:_id', {
-  name: 'Edit_Stuff_Page',
+FlowRouter.route('/edit-personal/:_id', {
+  name: 'Edit_Personal_Page',
   action() {
-    BlazeLayout.render('App_Body', { main: 'Edit_Stuff_Page' });
+    BlazeLayout.render('App_Body', { main: 'Edit_Personal_Page' });
   },
 });
 

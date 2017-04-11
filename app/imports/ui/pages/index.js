@@ -1,6 +1,9 @@
 import './personal-page.html';
 import './personal-page.js';
 
+import './edit-personal-page.html';
+import './edit-personal-page.js';
+
 import './home-page.html';
 
 import './add-workout-page.html';
