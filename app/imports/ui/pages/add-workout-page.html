@@ -1,0 +1,14 @@
+<template name="Add_Workout_Page">
+  {{#If_Logged_In}}
+
+    <div style="padding-top: 20px" class="ui text container">
+      {{> quickForm
+      collection=workoutCollection
+      template="semanticUI"
+      id="AddWorkoutForm"
+      type="insert"
+      resetOnSuccess=true}}
+    </div>
+
+  {{/If_Logged_In}}
+</template>

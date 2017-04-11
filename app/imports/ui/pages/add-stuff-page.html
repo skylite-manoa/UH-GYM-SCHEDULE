@@ -1,5 +1,6 @@
 <template name="Add_Stuff_Page">
   {{#If_Logged_In}}
+
     <div style="padding-top: 20px" class="ui text container">
       {{> quickForm
       collection=stuffCollection
@@ -8,5 +9,6 @@
       type="insert"
       resetOnSuccess=true}}
     </div>
+
   {{/If_Logged_In}}
 </template>

@@ -34,3 +34,24 @@ FlowRouter.notFound = {
     BlazeLayout.render('App_Body', { main: 'App_Not_Found' });
   },
 };
+
+FlowRouter.route('/add-workout', {
+  name: 'Add_Workout_Page',
+  action() {
+    BlazeLayout.render('App_Body', { main: 'Add_Workout_Page' });
+  },
+});
+
+FlowRouter.route('/list-workout', {
+  name: 'List_Workout_Page',
+  action() {
+    BlazeLayout.render('App_Body', { main: 'List_Workout_Page' });
+  },
+});
+
+FlowRouter.route('/edit-workout/:_id', {
+  name: 'Edit_Workout_Page',
+  action() {
+    BlazeLayout.render('App_Body', { main: 'Edit_Workout_Page' });
+  },
+});

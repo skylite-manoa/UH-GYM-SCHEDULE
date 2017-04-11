@@ -1,4 +1,5 @@
 import { Stuff } from '../../api/stuff/stuff.js';
+import { Workout } from '../../api/workout/workout.js';
 import { _ } from 'meteor/underscore';
 
 /**
@@ -18,3 +19,19 @@ if (Stuff.find().count() === 0) {
     Stuff.insert(stuff);
   });
 }
+
+
+const workoutSeeds = [
+  { name: 'Bench press', time: 5 },
+  { name: 'Squat', time: 8 },
+];
+
+/**
+ * Initialize the Stuff collection if empty with seed data.
+ */
+if (Workout.find().count() === 0) {
+  _.each(workoutSeeds, function seedWorkouts(e) {
+    Workout.insert(e);
+  });
+}
+
