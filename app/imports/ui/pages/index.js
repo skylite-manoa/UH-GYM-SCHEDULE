@@ -1,3 +1,5 @@
+import './personal-page.html';
+import './personal-page.js';
 
 import './home-page.html';
 

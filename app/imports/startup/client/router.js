@@ -15,10 +15,10 @@ FlowRouter.route('/list', {
   },
 });
 
-FlowRouter.route('/add', {
-  name: 'Add_Stuff_Page',
+FlowRouter.route('/personal-page', {
+  name: 'Personal_Page',
   action() {
-    BlazeLayout.render('App_Body', { main: 'Add_Stuff_Page' });
+    BlazeLayout.render('App_Body', { main: 'Personal_Page' });
   },
 });
 
