@@ -5,17 +5,10 @@
 }
 
 .ui.text.container {
-  max-width: 455px !important;
   background-color: white;
+  margin-top: 50px;
 }
 
-body {
-  background: url(/images/WRC.png) no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-}
 
 .ui.personal.container{
   background-color:  white;
