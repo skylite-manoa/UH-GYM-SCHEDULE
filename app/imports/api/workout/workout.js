@@ -19,13 +19,22 @@ export const WorkoutSchema = new SimpleSchema({
       placeholder: 'Bench Press',
     },
   },
-  time: {
-    label: 'Time',
+  checkin: {
+    label: 'checkin',
     type: String,
     optional: false,
     autoform: {
       group: 'Workout',
-      placeholder: '3',
+      placeholder: '9:00',
+    },
+  },
+  checkout: {
+    label: 'checkout',
+    type: String,
+    optional: false,
+    autoform: {
+      group: 'Workout',
+      placeholder: '9:30',
     },
   },
 });

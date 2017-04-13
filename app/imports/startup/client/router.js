@@ -55,3 +55,12 @@ FlowRouter.route('/edit-workout/:_id', {
     BlazeLayout.render('App_Body', { main: 'Edit_Workout_Page' });
   },
 });
+
+
+FlowRouter.route('/cards', {
+  name: 'Card_Page',
+  action() {
+    BlazeLayout.render('App_Body', { main: 'Card_Page' });
+  },
+});
+

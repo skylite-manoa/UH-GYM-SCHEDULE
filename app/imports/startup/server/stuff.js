@@ -22,8 +22,9 @@ if (Stuff.find().count() === 0) {
 
 
 const workoutSeeds = [
-  { name: 'Bench press', time: 5 },
-  { name: 'Squat', time: 8 },
+  { name: 'Bench press', checkin: '9:00', checkout: '9:30'},
+  { name: 'Squat', checkin: '10:00', checkout: '10:30'},
+  { name: 'Deadlift', checkin: '11:00', checkout: '11:30'}
 ];
 
 /**

@@ -1,3 +1,4 @@
+<!--
 <template name="Add_Workout_Page">
   {{#If_Logged_In}}
 
@@ -12,3 +13,108 @@
 
   {{/If_Logged_In}}
 </template>
+-->
+
+<template name="Add_Workout_Page">
+
+  <div style="margin-top:20px" class="ui add-workout container">
+    <form class="ui form">
+      <h4 class="ui dividing header">Add Workout</h4>
+      <div class="field">
+        <label>Workout</label>
+          <div class="field">
+            <input type="text" name="shipping[first-name]" placeholder="bench">
+          </div>
+      </div>
+
+      <div class="field">
+        <div class="two fields">
+          <div class="field">
+            <label>Check In</label>
+            <select class="ui fluid dropdown">
+              <option value="">Check In</option>
+              <option value="9">9:00</option>
+              <option value="9.5">9:30</option>
+              <option value="10">10:00</option>
+              <option value="11">10:30</option>
+              <option value="12">11:00</option>
+              <option value="13">11:30</option>
+              <option value="14">12:00</option>
+              <option value="15">12:30</option>
+              <option value="16">13:00</option>
+              <option value="17">13:30</option>
+              <option value="18">14:00</option>
+              <option value="19">14:30</option>
+              <option value="20">15:00</option>
+              <option value="20">15:30</option>
+              <option value="12">16:00</option>
+              <option value="13">16:30</option>
+              <option value="14">17:00</option>
+              <option value="15">17:30</option>
+              <option value="16">18:00</option>
+              <option value="17">18:30</option>
+              <option value="18">19:00</option>
+              <option value="19">19:30</option>
+              <option value="20">20:00</option>
+              <option value="20">20:30</option>
+            </select>
+          </div>
+          <div class="field">
+            <label>Check Out</label>
+            <select class="ui fluid dropdown">
+              <option value="">Check Out</option>
+              <option value="9">9:30</option>
+              <option value="10">10:00</option>
+              <option value="11">10:30</option>
+              <option value="12">11:00</option>
+              <option value="13">11:30</option>
+              <option value="14">12:00</option>
+              <option value="15">12:30</option>
+              <option value="16">13:00</option>
+              <option value="17">13:30</option>
+              <option value="18">14:00</option>
+              <option value="19">14:30</option>
+              <option value="20">15:00</option>
+              <option value="20">15:30</option>
+              <option value="12">16:00</option>
+              <option value="13">16:30</option>
+              <option value="14">17:00</option>
+              <option value="15">17:30</option>
+              <option value="16">18:00</option>
+              <option value="17">18:30</option>
+              <option value="18">19:00</option>
+              <option value="19">19:30</option>
+              <option value="20">20:00</option>
+              <option value="20">20:30</option>
+            </select>
+          </div>
+        </div>
+      </div>
+
+      <div class="field">
+        <label>Weight</label>
+          <div class="field">
+            <input type="text" name="Weight" placeholder="Weight(lb)">
+          </div>
+      </div>
+
+      <div class="field">
+        <label>Sets/Reps</label>
+        <div class="two fields">
+          <div class="field">
+            <input type="text" name="shipping[first-name]" placeholder="Sets">
+          </div>
+          <div class="field">
+            <input type="text" name="shipping[last-name]" placeholder="Repetitions">
+          </div>
+        </div>
+
+      </div>
+
+      <button class="ui primary button" type="submit">Submit</button>
+    </form>
+
+  </div>
+
+</template>
+

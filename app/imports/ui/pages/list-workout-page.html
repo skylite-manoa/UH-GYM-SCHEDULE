@@ -7,7 +7,8 @@
           <thead>
           <tr>
             <th>Name</th>
-            <th>Workout</th>
+            <th>Check In</th>
+            <th>Check Out</th>
             <th>Edit</th>
           </tr>
           </thead>
@@ -16,7 +17,8 @@
           {{#each workout in workoutList}}
             <tr>
               <td>{{workout.name}}</td>
-              <td>{{workout.time}}</td>
+              <td>{{workout.checkin}}</td>
+              <td>{{workout.checkout}}</td>
               <td><a href="{{pathFor 'Edit_Workout_Page' _id=workout._id}}">Edit</a></td>
             </tr>
           {{/each}}
