@@ -15,6 +15,5 @@ import './edit-workout-page.js';
 import './list-workout-page.html';
 import './list-workout-page.js';
 
-import './cards.html';
-import './cards.js';
-
+import './scheduler.html';
+import './scheduler.js';

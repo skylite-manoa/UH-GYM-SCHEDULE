@@ -57,10 +57,9 @@ FlowRouter.route('/edit-workout/:_id', {
 });
 
 
-FlowRouter.route('/cards', {
-  name: 'Card_Page',
+FlowRouter.route('/scheduler', {
+  name: 'events',
   action() {
-    BlazeLayout.render('App_Body', { main: 'Card_Page' });
+    BlazeLayout.render('App_Body', { main: 'events' });
   },
 });
-
