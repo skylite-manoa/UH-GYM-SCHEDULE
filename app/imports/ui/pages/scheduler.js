@@ -1,8 +1,8 @@
 /**
  * Created by chris on 4/17/17.
  */
-Template.events.onRendered( () => {
-  $( '#events-calendar' ).fullCalendar({
+Template.events.onRendered(() => {
+  $('#events-calendar').fullCalendar({
 
     header: {
       left: 'prev,next today',
@@ -39,7 +39,7 @@ Template.events.onRendered( () => {
   });
 });
 
-Events = new Mongo.Collection( 'events' );
+Events = new Mongo.Collection('events');
 
 Events.allow({
   insert: () => false,
@@ -69,7 +69,7 @@ let EventsSchema = new SimpleSchema({
   'type': {
     type: String,
     label: 'What type of event is this?',
-    allowedValues: [ 'Birthday', 'Corporate', 'Wedding', 'Miscellaneous' ]
+    allowedValues: ['Birthday', 'Corporate', 'Wedding', 'Miscellaneous']
   },
   'guests': {
     type: Number,
@@ -77,4 +77,4 @@ let EventsSchema = new SimpleSchema({
   }
 });
 
-Events.attachSchema( EventsSchema );
+Events.attachSchema(EventsSchema);
