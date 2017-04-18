@@ -55,3 +55,5 @@ insecure@1.0.7
 practicalmeteor:mocha
 
 
+fullcalendar:fullcalendar
+momentjs:moment
