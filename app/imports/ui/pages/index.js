@@ -5,6 +5,7 @@ import './edit-personal-page.html';
 import './edit-personal-page.js';
 
 import './home-page.html';
+import './home-page.js';
 
 import './add-workout-page.html';
 import './add-workout-page.js';
