@@ -14,3 +14,11 @@
   background-color:  white;
   margin-bottom: 80px;
 }
+
+.ui.three.column.grid.container{
+  margin-top: 20px;
+}
+
+footer{
+  background-image: url("/images/footer.png");
+}
