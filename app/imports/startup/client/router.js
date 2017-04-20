@@ -64,3 +64,10 @@ FlowRouter.route('/scheduler', {
     BlazeLayout.render('App_Body', { main: 'events' });
   },
 });
+
+FlowRouter.route('/about', {
+  name: 'About_Page',
+  action() {
+    BlazeLayout.render('App_Body', { main: 'About_Page' });
+  },
+});

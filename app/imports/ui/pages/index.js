@@ -18,3 +18,6 @@ import './list-workout-page.js';
 
 import './scheduler.html';
 import './scheduler.js';
+
+import './about.html';
+import './about.js';
