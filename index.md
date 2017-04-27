@@ -66,6 +66,10 @@ Version 2 of the program was successfully deployed on [galaxy](https://galaxy.me
 # Homepage
 <img src="images/M2Home_page.png"/>
 
+# CAS Login
+
+<img src="images/CAS.png"/>
+
 # Calendar
 <img src="images/M2Schedule_page.png"/>
 
