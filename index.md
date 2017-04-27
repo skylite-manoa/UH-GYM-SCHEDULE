@@ -57,12 +57,11 @@ Milestone 2 was implemented as [warrior-scheduler GitHub Milestone M2](https://g
 Milestone 2 consisted of five issues, and progress was managed via the [warrior-scheduler GitHub Project M2](https://github.com/skylite-manoa/warrior-scheduler/projects/3):
 
 Version 2 of the program was successfully deployed on [galaxy](https://galaxy.meteor.com/app/warrior-scheduler.meteorapp.com)
-<img src="images/M1deploy.png"/>
+<img src="images/M2deploy.png"/>
 
 # Homepage
 
 # Calendar
 
-# About Page
 
 
