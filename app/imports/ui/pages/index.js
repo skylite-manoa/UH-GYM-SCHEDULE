@@ -18,3 +18,9 @@ import './list-workout-page.js';
 
 import './scheduler.html';
 import './scheduler.js';
+
+import './calendar-page.html';
+import './calendar-page.js';
+
+import './create-event-modal.html';
+import './create-event-modal.js';

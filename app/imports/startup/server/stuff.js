@@ -1,38 +1,26 @@
-import { Stuff } from '../../api/stuff/stuff.js';
-import { Workout } from '../../api/workout/workout.js';
+import { Events } from '../../api/workout/workout.js';
+import { EventsData } from '../../api/eventdata/eventdata.js';
 import { _ } from 'meteor/underscore';
 
-/**
- * A list of Stuff to pre-fill the Collection.
- * @type {*[]}
- */
-const stuffSeeds = [
-  { name: 'Basket', quantity: 3 },
-  { name: 'Bicycle', quantity: 2 },
-];
-
-/**
- * Initialize the Stuff collection if empty with seed data.
- */
-if (Stuff.find().count() === 0) {
-  _.each(stuffSeeds, function seedStuffs(stuff) {
-    Stuff.insert(stuff);
-  });
-}
-
-
 const workoutSeeds = [
-  { name: 'Bench press', checkin: '9:00', checkout: '9:30'},
-  { name: 'Squat', checkin: '10:00', checkout: '10:30'},
-  { name: 'Deadlift', checkin: '11:00', checkout: '11:30'}
+  { title: 'press', start: '2017-04-25', end: '2017-04-26', editable: true  },
+  { title: 'squat', start: '2017-04-25', end: '2017-04-26', editable: true  },
+  { title: 'deadlift', start: '2017-04-25', end: '2017-04-26', editable: true  },
 ];
 
-/**
- * Initialize the Stuff collection if empty with seed data.
- */
-if (Workout.find().count() === 0) {
+if (Events.find().count() === 0) {
   _.each(workoutSeeds, function seedWorkouts(e) {
-    Workout.insert(e);
+    Events.insert(e);
   });
 }
+/*
+const eventSeeds = [
+  { title: 'press', start: '2017-04-25', end: '2017-04-26', startValue: 4,  endValue: 5, startString: 'ok', endString: 'dokie' },
+];
 
+if (EventData.find().count() === 0) {
+  _.each(eventSeeds, function seedEvents(e) {
+    EventData.insert(e);
+  });
+}
+*/

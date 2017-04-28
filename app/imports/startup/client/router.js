@@ -43,13 +43,6 @@ FlowRouter.route('/add-workout', {
   },
 });
 
-FlowRouter.route('/list-workout', {
-  name: 'List_Workout_Page',
-  action() {
-    BlazeLayout.render('App_Body', { main: 'List_Workout_Page' });
-  },
-});
-
 FlowRouter.route('/edit-workout/:_id', {
   name: 'Edit_Workout_Page',
   action() {
@@ -57,10 +50,17 @@ FlowRouter.route('/edit-workout/:_id', {
   },
 });
 
-
 FlowRouter.route('/scheduler', {
   name: 'events',
   action() {
     BlazeLayout.render('App_Body', { main: 'events' });
   },
 });
+
+FlowRouter.route('/calendar', {
+  name: 'Calendar_Page',
+  action() {
+    BlazeLayout.render('App_Body', { main: 'Calendar_Page' });
+  },
+})
+
