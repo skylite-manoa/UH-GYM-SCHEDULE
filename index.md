@@ -79,7 +79,8 @@ Milestone 2 consisted of five issues, and progress was managed via the [warrior-
 Version 2 of the program was successfully deployed on [galaxy](https://galaxy.meteor.com/app/warrior-scheduler.meteorapp.com)
 <img src="images/M2deploy.png"/>
 
-Each issue was implemented in its own branch, and merged into master when completed:
+## Milestone 3
+This milestone started on April 28, 2017 and is ongoing.
 
 
 
