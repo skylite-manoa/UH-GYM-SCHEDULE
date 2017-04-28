@@ -79,15 +79,8 @@ Milestone 2 consisted of five issues, and progress was managed via the [warrior-
 Version 2 of the program was successfully deployed on [galaxy](https://galaxy.meteor.com/app/warrior-scheduler.meteorapp.com)
 <img src="images/M2deploy.png"/>
 
-# Homepage
-<img src="images/M2Home_page.png"/>
+Each issue was implemented in its own branch, and merged into master when completed:
 
-# CAS Login
-
-<img src="images/CAS.png"/>
-
-# Calendar
-<img src="images/M2Schedule_page.png"/>
 
 
 
