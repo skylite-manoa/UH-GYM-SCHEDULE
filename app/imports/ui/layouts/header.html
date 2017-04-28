@@ -1,0 +1,18 @@
+<template name="Header">
+  <img style="max-height: 125px" class="ui fluid image" src="images/SRS.png">
+  <div class="ui borderless inverted menu">
+    <div class="ui container">
+      <a class="item" href="{{pathFor 'Home_Page'}}"><h1>Warrior Scheduler</h1></a>
+      {{#if currentUser}}
+
+      <a class="{{ isActiveRoute 'Add_Workout_Page'}} item" href="{{ pathFor 'Add_Workout_Page' }}">Add Workout</a>
+      <!-- <a class="{{ isActiveRoute 'events'}} item" href="{{ pathFor 'events' }}">Schedule</a> -->
+      <a class="{{ isActiveRoute 'Calendar_Page'}} item" href="{{ pathFor 'Calendar_Page' }}">Calendar</a>
+      <a class="{{ isActiveRoute 'Personal_Page'}} item" href="{{ pathFor 'Personal_Page' }}">Personal</a>
+
+    {{/if}}
+      <a class="{{ isActiveRoute 'About_Page'}} item" href="{{ pathFor 'About_Page' }}">About</a>
+      <a href="{{pathFor 'Home_Page'}}" class="right aligned item">{{> Cas_Login align="right"}} </a>
+    </div>
+  </div>
+</template>
