@@ -1,5 +1,6 @@
 # Table of contents
 * [About Warrior Scheduler](#about-warrior-scheduler)
+  * [User Guide](#user-guide)
 * [Home Page](#home-page)
 * [Development history](#development-history)
   * [Milestone 1](#milestone-1)
@@ -12,13 +13,7 @@ Warrior Scheduler is a Meteor scheduling application that allows students and fa
 
 ![](images/schedule_page_example.png)
 
-
-
-# Home Page
-<img src="images/updated_homepage.png"/>
-
 ## User Guide
-
 
 <img width="400px" src="images/landing.png"/>
 To log in you must use your UH login.
@@ -34,6 +29,9 @@ Fill out your personal information by clicking on the Personal tab.
 
 <img width="400px" src="images/personal.png"/>
 
+
+# Home Page
+<img src="images/updated_homepage.png"/>
 
 
 # Development History
