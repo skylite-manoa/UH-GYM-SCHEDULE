@@ -7,7 +7,7 @@
 
 # About Warrior Scheduler
 
-Warrior Scheduler is a Meteor scheduling application that allows students and faculty keep track of how busy the gym will be at any given time. A user will simply input the time they wish to go to the gym and it will appear on a calendar for everyone to see. Users will also be able to keep track of the amount of weights they use for each machine.
+Warrior Scheduler is a Meteor scheduling application that allows students and faculty to keep track of how busy the gym will be at any given time. A user will simply input the time they wish to go to the gym and it will appear on a calendar for everyone to see. Users will also be able to keep track of the amount of weights they use for each machine.
 
 
 ![](images/schedule_page_example.png)
@@ -40,7 +40,7 @@ Milestone 1 was implemented as [warrior-scheduler GitHub Milestone M1](https://g
 
 <img src="images/M1.png"/>
 
-Milestone 1 consisted of five issues, and progress was managed via the [warrior-scheduler GitHub Project M1](https://github.com/skylite-manoa/warrior-scheduler/projects/2):
+Milestone 1 consisted of six issues, and progress was managed via the [warrior-scheduler GitHub Project M1](https://github.com/skylite-manoa/warrior-scheduler/projects/2):
 
 <img src="images/project1.png"/>
 
@@ -48,10 +48,30 @@ The program was successfully deployed on [galaxy](https://galaxy.meteor.com/app/
 <img src="images/M1deploy.png"/>
 
 ## Milestone 2
-This milestone started on April 14, 2017 and is ongoing.
+This milestone started on April 14, 2017 and ended on April 27, 2017.
 
-The goal of Milestone 2 is to update all of the mockup pages and some new implementations.
+The goal of Milestone 2 is to update all of the mockup pages and add some new implementations.
 
 Milestone 2 was implemented as [warrior-scheduler GitHub Milestone M2](https://github.com/skylite-manoa/warrior-scheduler/milestone/2):
 
+<img src="images/M2.png"/>
+
 Milestone 2 consisted of five issues, and progress was managed via the [warrior-scheduler GitHub Project M2](https://github.com/skylite-manoa/warrior-scheduler/projects/3):
+
+<img src="images/project2.png"/>
+
+Version 2 of the program was successfully deployed on [galaxy](https://galaxy.meteor.com/app/warrior-scheduler.meteorapp.com)
+<img src="images/M2deploy.png"/>
+
+# Homepage
+<img src="images/M2Home_page.png"/>
+
+# CAS Login
+
+<img src="images/CAS.png"/>
+
+# Calendar
+<img src="images/M2Schedule_page.png"/>
+
+
+
