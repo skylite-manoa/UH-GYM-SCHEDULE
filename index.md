@@ -17,6 +17,22 @@ Warrior Scheduler is a Meteor scheduling application that allows students and fa
 # Home Page
 <img src="images/updated_homepage.png"/>
 
+## User Guide
+
+
+<img width="400px" src="images/landing.png"/>
+To log in you must use your UH login.
+
+<img width="400px" src="images/cas.png"/>
+After logging in, the services will become available.
+
+<img width="400px" src="images/home.png"/>
+Use the calendar to add in gym events and workouts.
+
+<img width="400px" src="images/calendar.png"/>
+Fill out your personal information by clicking on the Personal tab.
+
+<img width="400px" src="images/personal.png"/>
 
 
 
