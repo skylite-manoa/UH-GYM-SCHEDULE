@@ -30,6 +30,16 @@ Fill out your personal information by clicking on the Personal tab.
 
 ![](images/personal.png)
 
+# Developer Guide
+Intsall Meteor.(https://www.meteor.com).
+
+Then, git clone https://github.com/skylite-manoa/warrior-scheduler.git.
+
+In the project, cd into the app directory and install libraries with:
+
+$ meteor npm install
+
+$ meteor npm run start
 
 
 # Home Page
