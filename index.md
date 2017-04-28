@@ -1,6 +1,7 @@
 # Table of contents
 * [About Warrior Scheduler](#about-warrior-scheduler)
   * [User Guide](#user-guide)
+  * [Developer Guide](#developer-guide)
 * [Home Page](#home-page)
 * [Development history](#development-history)
   * [Milestone 1](#milestone-1)
