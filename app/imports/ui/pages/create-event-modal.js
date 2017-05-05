@@ -26,6 +26,9 @@ Template.Create_Event_Modal.helpers({
 });
 
 // Enable Semantic UI.
+Template.Create_Event_Modal.onRendered(function enableSemantic() {
+  this.$('.ui.fluid.search.dropdown').dropdown();
+});
 
 Template.Create_Event_Modal.events({
   'submit .session-data-form'(event, instance) {

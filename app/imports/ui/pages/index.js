@@ -16,9 +16,6 @@ import './edit-workout-page.js';
 import './list-workout-page.html';
 import './list-workout-page.js';
 
-import './scheduler.html';
-import './scheduler.js';
-
 import './calendar-page.html';
 import './calendar-page.js';
 

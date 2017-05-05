@@ -54,4 +54,5 @@ export const EventDataSchema = new SimpleSchema({
   },
 });
 
+
 EventData.attachSchema(EventDataSchema);

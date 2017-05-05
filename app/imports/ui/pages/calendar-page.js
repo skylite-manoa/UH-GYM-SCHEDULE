@@ -1,5 +1,5 @@
 import { Tracker } from 'meteor/tracker';
-import { EventData } from '../../api/eventdata/eventdata.js';
+import { EventData } from '../../api/eventdata/eventdata';
 
 // Define a function that checks whether a moment has already passed.
 let isPast = (date) => {
@@ -21,7 +21,6 @@ Template.Calendar_Page.onRendered(() => {
       center: '',
       right:  'today prev,next'
     },
-
     // Add events to the calendar.
     events(start, end, timezone, callback) {
       let data = EventData.find().fetch().map((session) => {
@@ -58,6 +57,7 @@ Template.Calendar_Page.onRendered(() => {
     eventClick(event) {
       EventData.remove({ _id: event._id });
     },
+
     // Allow events to be dragged and dropped.
     eventDrop(session, delta, revert) {
       let date = session.start.format();
@@ -75,7 +75,6 @@ Template.Calendar_Page.onRendered(() => {
         revert();
       }
     },
-
   });
 
   // Updates the calendar if there are changes.
@@ -84,4 +83,3 @@ Template.Calendar_Page.onRendered(() => {
     $('#event-calendar').fullCalendar('refetchEvents');
   });
 });
-
