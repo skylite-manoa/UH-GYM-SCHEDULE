@@ -1,5 +1,7 @@
 # Table of contents
 * [About Warrior Scheduler](#about-warrior-scheduler)
+  * [User Guide](#user-guide)
+  * [Developer Guide](#developer-guide)
 * [Home Page](#home-page)
 * [Development history](#development-history)
   * [Milestone 1](#milestone-1)
@@ -13,11 +15,40 @@ Warrior Scheduler is a Meteor scheduling application that allows students and fa
 ![](images/schedule_page_example.png)
 
 
+# User Guide
+
+![](images/landing.png)
+To log in you must use your UH login.
+
+![](images/cas.png)
+After logging in, the services will become available.
+
+![](images/home.png)
+Use the calendar to add in gym events and workouts.
+
+![](images/calendar.png)
+Fill out your personal information by clicking on the Personal tab.
+
+![](images/personal.png)
+
+# Developer Guide
+Install Meteor at https://www.meteor.com.
+
+Then, git clone https://github.com/skylite-manoa/warrior-scheduler.git.
+
+In the project, cd into app directory and install libraries with:
+
+```
+$ meteor npm install
+```
+
+```
+$ meteor npm run start
+```
+
 
 # Home Page
 <img src="images/updated_homepage.png"/>
-
-
 
 
 # Development History
@@ -63,15 +94,9 @@ Milestone 2 consisted of five issues, and progress was managed via the [warrior-
 Version 2 of the program was successfully deployed on [galaxy](https://galaxy.meteor.com/app/warrior-scheduler.meteorapp.com)
 <img src="images/M2deploy.png"/>
 
-# Homepage
-<img src="images/M2Home_page.png"/>
+## Milestone 3
+This milestone started on April 28, 2017 and is ongoing.
 
-# CAS Login
-
-<img src="images/CAS.png"/>
-
-# Calendar
-<img src="images/M2Schedule_page.png"/>
 
 
 
