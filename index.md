@@ -2,7 +2,6 @@
 * [About Warrior Scheduler](#about-warrior-scheduler)
   * [Home Page](#home-page)
   * [User Guide](#user-guide)
-  * [Developer Guide](#developer-guide)
 * [Installation](#installation)
 * [Application design](#application-design)
   * [Directory structure](#directory-structure)
@@ -38,22 +37,6 @@ Use the calendar to add in gym events and workouts.
 Fill out your personal information by clicking on the Personal tab.
 
 ![](images/personal.png)
-
-# Developer Guide
-Install Meteor at https://www.meteor.com.
-
-Then, git clone https://github.com/skylite-manoa/warrior-scheduler.git.
-
-In the project, cd into app directory and install libraries with:
-
-```
-$ meteor npm install
-```
-
-```
-$ meteor npm run start
-```
-
 
 # Installation
 
