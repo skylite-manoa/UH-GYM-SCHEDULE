@@ -1,5 +1,6 @@
 # Table of contents
 * [About Warrior Scheduler](#about-warrior-scheduler)
+* [Installation](#Installation)
   * [User Guide](#user-guide)
   * [Developer Guide](#developer-guide)
 * [Home Page](#home-page)
@@ -13,6 +14,26 @@ Warrior Scheduler is a Meteor scheduling application that allows students and fa
 
 
 ![](images/schedule_page_example.png)
+
+# Installation
+
+First, [install Meteor](https://www.meteor.com/install).
+
+Second, [download a copy of BowFolios](https://github.com/ics-software-engineering/meteor-application-template/archive/master.zip), or clone it using git.
+  
+Third, cd into the app/ directory and install libraries with:
+
+```
+$ meteor npm install
+```
+
+Fourth, run the system with:
+
+```
+$ meteor npm run start
+```
+
+If all goes well, the application will appear at [http://localhost:3000](http://localhost:3000). If you have an account on the UH test CAS server, you can login.
 
 
 # User Guide
