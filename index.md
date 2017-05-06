@@ -1,6 +1,6 @@
 # Table of contents
 * [About Warrior Scheduler](#about-warrior-scheduler)
-* [Installation](#Installation)
+* [Installation](#installation)
   * [User Guide](#user-guide)
   * [Developer Guide](#developer-guide)
 * [Home Page](#home-page)
