@@ -1,6 +1,9 @@
 import './personal-page.html';
 import './personal-page.js';
 
+import './list-personal-page.html';
+import './list-personal-page.js';
+
 import './edit-personal-page.html';
 import './edit-personal-page.js';
 
@@ -24,3 +27,4 @@ import './create-event-modal.js';
 
 import './about.html';
 import './about.js';
+
