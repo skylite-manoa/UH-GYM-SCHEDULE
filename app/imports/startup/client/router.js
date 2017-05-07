@@ -55,7 +55,14 @@ FlowRouter.route('/calendar', {
   action() {
     BlazeLayout.render('App_Body', { main: 'Calendar_Page' });
   },
-})
+});
+
+FlowRouter.route('/list-personal', {
+  name: 'List_Personal_Page',
+  action() {
+    BlazeLayout.render('App_Body', { main: 'List_Personal_Page' });
+  },
+});
 
 FlowRouter.route('/about', {
   name: 'About_Page',

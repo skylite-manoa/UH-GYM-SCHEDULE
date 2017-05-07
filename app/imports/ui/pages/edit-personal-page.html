@@ -7,15 +7,25 @@
         <label>Name</label>
         <div class="two fields">
           <div class="field">
-            <input type="text" name="shipping[first-name]" placeholder="First Name">
+            <input type="text" name="first" placeholder="First Name">
           </div>
           <div class="field">
-            <input type="text" name="shipping[last-name]" placeholder="Last Name">
+            <input type="text" name="last" placeholder="Last Name">
           </div>
         </div>
-
       </div>
 
+      <div class="field">
+        <label>UH Email/Contact Number</label>
+        <div class="two fields">
+          <div class="field">
+            <input type="text" name="email" placeholder="example@hawaii.edu">
+          </div>
+          <div class="field">
+            <input type="text" name="number" placeholder="xxx-xxx-xxxx">
+          </div>
+        </div>
+      </div>
 
       <div class="field">
         <label>Height/Weight</label>
@@ -31,12 +41,11 @@
 
       <div class="field">
         <label>Goal</label>
-        <textarea rows="2" placeholder="fitness goal"></textarea>
+        <textarea rows="2" name="goal" placeholder="fitness goal"></textarea>
       </div>
 
       <button class="ui primary button" type="submit">Update</button>
     </form>
-
   </div>
 
 </template>

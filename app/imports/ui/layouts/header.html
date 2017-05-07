@@ -9,8 +9,10 @@
       <!-- <a class="{{ isActiveRoute 'events'}} item" href="{{ pathFor 'events' }}">Schedule</a> -->
       <a class="{{ isActiveRoute 'Calendar_Page'}} item" href="{{ pathFor 'Calendar_Page' }}">Calendar</a>
       <a class="{{ isActiveRoute 'Personal_Page'}} item" href="{{ pathFor 'Personal_Page' }}">Personal</a>
+      <a class="{{ isActiveRoute 'List_Personal_Page'}} item" href="{{ pathFor 'List_Personal_Page' }}">List Personal</a>
 
-    {{/if}}
+
+      {{/if}}
       <a class="{{ isActiveRoute 'About_Page'}} item" href="{{ pathFor 'About_Page' }}">About</a>
       <a href="{{pathFor 'Home_Page'}}" class="right aligned item">{{> Cas_Login align="right"}} </a>
     </div>
