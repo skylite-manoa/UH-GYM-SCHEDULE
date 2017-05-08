@@ -3,7 +3,7 @@
     "env": {
       "MONGO_URL": "mongodb://joshuajw:joshuajw@ds159180.mlab.com:59180/warrior-scheduler"
     }
-  }
+  },
 
   "cas": {
     "baseUrl": "https://cas-test.its.hawaii.edu/cas/",
@@ -22,6 +22,5 @@
     "jingjie6",
     "joshuajw",
     "jaryljim"
-
   ]
 }
