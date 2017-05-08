@@ -10,9 +10,6 @@ import './edit-personal-page.js';
 import './home-page.html';
 import './home-page.js';
 
-import './add-workout-page.html';
-import './add-workout-page.js';
-
 import './edit-workout-page.html';
 import './edit-workout-page.js';
 
