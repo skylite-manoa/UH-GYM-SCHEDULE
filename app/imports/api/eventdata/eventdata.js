@@ -21,12 +21,6 @@ export const EventDataSchema = new SimpleSchema({
     optional: false,
     max: 200,
   },
-  first: {
-    label: 'first',
-    type: String,
-    optional: false,
-    max: 200,
-  },
   email: {
     label: 'email',
     type: String,

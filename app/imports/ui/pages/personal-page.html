@@ -1,6 +1,6 @@
 <template name="Personal_Page">
 
-  <div style="margin-top:20px" class="ui personal container">
+  <div style="margin-top:20px" class="ui container">
     <form class="ui form eventdata-data-form {{ errorClass }}">
       <h4 class="ui dividing header">Add Gym Buddy</h4>
       <div class="field">
@@ -17,11 +17,9 @@
         </div>
       </div>
 
-      <div class="field">
         {{> Text_Form_Control label="Goal" required=true errorMessage=(fieldError "goal")}}
-      </div>
 
-      <button class="ui primary button" type="submit">Submit</button>
+      <button class="ui button" type="submit">Submit</button>
     </form>
   </div>
 
