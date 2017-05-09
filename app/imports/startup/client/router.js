@@ -9,6 +9,13 @@ FlowRouter.route('/', {
 });
 
 
+FlowRouter.route('/list', {
+  name: 'List_Stuff_Page',
+  action() {
+    BlazeLayout.render('App_Body', { main: 'List_Stuff_Page' });
+  },
+});
+
 FlowRouter.route('/personal-page', {
   name: 'Personal_Page',
   action() {
@@ -57,3 +64,9 @@ FlowRouter.route('/list-personal', {
   },
 });
 
+FlowRouter.route('/about', {
+  name: 'About_Page',
+  action() {
+    BlazeLayout.render('App_Body', { main: 'About_Page' });
+  },
+});
