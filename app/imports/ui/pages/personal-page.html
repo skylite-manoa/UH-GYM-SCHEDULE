@@ -12,14 +12,16 @@
 
       <div class="field">
         <div class="two fields">
-          {{> Text_Form_Control label="Email" placeholder="example@hawaii.edu" required=true errorMessage=(fieldError "email")}}
-          {{> Text_Form_Control label="Number" placeholder="xxx-xxx-xxxx" required=true errorMessage=(fieldError "number")}}
+          {{> Text_Form_Control label="Email" placeholder="example@hawaii.edu" required=true errorMessage=(fieldError
+          "email")}}
+          {{> Text_Form_Control label="Number" placeholder="xxx-xxx-xxxx" required=true errorMessage=(fieldError
+          "number")}}
         </div>
       </div>
 
-        {{> Text_Form_Control label="Goal" required=true errorMessage=(fieldError "goal")}}
-
-      <button class="ui button" type="submit">Submit</button>
+      {{> Text_Form_Control label="Goal" required=true errorMessage=(fieldError "goal")}}
+      
+      <button class="ui submit button">Submit</button>
 
     </form>
   </div>
