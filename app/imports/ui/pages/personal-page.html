@@ -1,47 +1,24 @@
 <template name="Personal_Page">
 
   <div style="margin-top:20px" class="ui personal container">
-    <form class="ui form">
-      <h4 class="ui dividing header">Personal Page</h4>
+    <form class="ui form eventdata-data-form {{ errorClass }}">
+      <h4 class="ui dividing header">Add Gym Buddy</h4>
       <div class="field">
-        <label>Name</label>
         <div class="two fields">
-          <div class="field">
-            <input type="text" name="first" placeholder="First Name">
-          </div>
-          <div class="field">
-            <input type="text" name="last" placeholder="Last Name">
-          </div>
+          {{> Text_Form_Control label="First" required=true errorMessage=(fieldError "first")}}
+          {{> Text_Form_Control label="Last" required=true errorMessage=(fieldError "last")}}
         </div>
       </div>
 
       <div class="field">
-        <label>UH Email/Contact Number</label>
         <div class="two fields">
-          <div class="field">
-            <input type="text" name="email" placeholder="example@hawaii.edu">
-          </div>
-          <div class="field">
-            <input type="text" name="number" placeholder="xxx-xxx-xxxx">
-          </div>
+          {{> Text_Form_Control label="Email" placeholder="example@hawaii.edu" required=true errorMessage=(fieldError "email")}}
+          {{> Text_Form_Control label="Number" placeholder="xxx-xxx-xxxx" required=true errorMessage=(fieldError "number")}}
         </div>
       </div>
 
       <div class="field">
-        <label>Height/Weight</label>
-        <div class="two fields">
-          <div class="field">
-            <input type="text" name="height" placeholder="Height(cm)">
-          </div>
-          <div class="field">
-            <input type="text" name="weight" placeholder="Weight(lb)">
-          </div>
-        </div>
-      </div>
-
-      <div class="field">
-        <label>Goal</label>
-        <textarea rows="2" name="goal" placeholder="fitness goal"></textarea>
+        {{> Text_Form_Control label="Goal" required=true errorMessage=(fieldError "goal")}}
       </div>
 
       <button class="ui primary button" type="submit">Submit</button>

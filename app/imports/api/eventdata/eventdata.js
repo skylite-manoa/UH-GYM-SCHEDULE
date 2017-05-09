@@ -9,10 +9,40 @@ export const EventData = new Mongo.Collection('EventData');
  * Create the schema for EventtData
  */
 export const EventDataSchema = new SimpleSchema({
-  title: {
-    label: 'Title of the event',
+  first: {
+    label: 'first',
     type: String,
     optional: false,
+    max: 200,
+  },
+  last: {
+    label: 'last',
+    type: String,
+    optional: false,
+    max: 200,
+  },
+  first: {
+    label: 'first',
+    type: String,
+    optional: false,
+    max: 200,
+  },
+  email: {
+    label: 'email',
+    type: String,
+    optional: false,
+  },
+  number: {
+    label: 'number',
+    type: String,
+    optional: false,
+    max: 200,
+  },
+  goal: {
+    label: 'goal',
+    type: String,
+    optional: false,
+    max: 500,
   },
   start: {
     label: 'Start time of the event',
