@@ -25,7 +25,6 @@ Template.Personal_Page.helpers({
   },
 });
 
-
 Template.Personal_Page.events({
   'submit .eventdata-data-form'(event, instance) {
     event.preventDefault();
@@ -36,7 +35,7 @@ Template.Personal_Page.events({
     const number = event.target.Number.value;
     const goal = event.target.Goal.value;
 
-    const newEventData = { first, last, email, number, goal};
+    const newEventData = { first, last, email, number, goal };
     // Clear out any old validation errors.
     instance.context.resetValidation();
     // Invoke clean so that newEventData reflects what will be inserted.
