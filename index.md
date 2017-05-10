@@ -69,18 +69,19 @@ The testers were given access to the warrior-scheduler.meteorapp.com link and we
 # Developer Guide
 First, [install Meteor](https://www.meteor.com/install).
 
-Second, [download a copy of BowFolios](https://github.com/ics-software-engineering/meteor-application-template/archive/master.zip), or clone it using git.
+Second, [download a copy of warrior-scheduler](https://github.com/skylite-manoa/warrior-scheduler), or clone it using git.
   
 Third, cd into the app/ directory and install libraries with:
 
 ```
 $ meteor npm install
+$ meteor npm install autoprefixer
 ```
 
 Fourth, run the system with:
 
 ```
-$ meteor npm run start
+$ meteor --settings ../config/settings.development.json
 ```
 
 If all goes well, the application will appear at [http://localhost:3000](http://localhost:3000). If you have an account on the UH test CAS server, you can login.
