@@ -13,6 +13,8 @@ export const EventDataSchema = new SimpleSchema({
     label: 'Title of the event',
     type: String,
     optional: false,
+<<<<<<< HEAD
+=======
     max: 200,
   },
   last: {
@@ -38,6 +40,7 @@ export const EventDataSchema = new SimpleSchema({
     type: String,
     optional: false,
     max: 500,
+>>>>>>> 1ed09861709707752566178c6c9104ffba926f68
   },
   start: {
     label: 'Start time of the event',
