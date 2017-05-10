@@ -180,4 +180,6 @@ Milestone 3 consisted of 2 issues, and progress was managed via the [warrior-sch
 Version 7 of the program was successfully deployed on [galaxy](https://galaxy.meteor.com/app/warrior-scheduler.meteorapp.com)
 <img src="images/M3-deploy.png"/>
 
+Commits were tracked via the [warrior-scheduler GitHub Project M3](https://github.com/skylite-manoa/warrior-scheduler/network):
+<img src="images/M3-Graph.png"/>
 
