@@ -2,7 +2,7 @@
 * [About Warrior Scheduler](#about-warrior-scheduler)
   * [Home Page](#home-page)
   * [User Guide](#user-guide)
-  * [Initial User Study](#intitial-user-study)
+  * [Initial User Study](#initial-user-study)
 * [Installation](#installation)
 * [Application design](#application-design)
   * [Directory structure](#directory-structure)
