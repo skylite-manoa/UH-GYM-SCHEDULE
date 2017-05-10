@@ -2,7 +2,7 @@
 * [About Warrior Scheduler](#about-warrior-scheduler)
   * [Home Page](#home-page)
   * [User Guide](#user-guide)
-  * [Initial User Study](#intital-user-study)
+  * [Initial User Study](#intitial-user-study)
 * [Installation](#installation)
 * [Application design](#application-design)
   * [Directory structure](#directory-structure)
@@ -25,6 +25,8 @@ Warrior Scheduler is a Meteor scheduling application that allows students and fa
 ![](images/home.png)
 
 # User Guide
+
+A working version of this app can be found here [warrior-scheduler app](http://warrior-scheduler.meteorapp.com/)
 
 ![](images/M3-not-logged-in.png)
 To log in you must use your UH login.
@@ -196,7 +198,9 @@ This milestone started on April 28, 2017 and has ended on May 9th, 2017.
 
 The main goal for Milestone 3 was to get our Calendar working and getting the Personal page to store contacts in the database
 
-Milestone 3 was implemented as [warrior-scheduler GitHub Milestone M3](https://github.com/skylite-manoa/warrior-scheduler/milestone/3)
+Milestone 3 was implemented as [warrior-scheduler GitHub Milestone M3](https://github.com/skylite-manoa/warrior-scheduler/milestone/3):
+
+<img src="images/M3-milestone.png"/>
 
 Milestone 3 consisted of 2 issues, and progress was managed via the [warrior-scheduler GitHub Project M3](https://github.com/skylite-manoa/warrior-scheduler/projects/5):
 
