@@ -26,19 +26,22 @@ Warrior Scheduler is a Meteor scheduling application that allows students and fa
 
 # User Guide
 
-![](images/landing.png)
+![](images/M3-not-logged-in.png)
 To log in you must use your UH login.
 
 ![](images/cas.png)
 After logging in, the services will become available.
 
-![](images/home.png)
+![](images/M3-logged-in.png)
 Use the calendar to add in gym events and workouts.
 
-![](images/calendar.png)
+![](images/M3-Calendar.png)
 Fill out your personal information by clicking on the Personal tab.
 
-![](images/personal.png)
+![](images/M3-Personal.png)
+Your contacts will appear on this page.
+
+![](images/M3-List-Personal.png)
 
 # Initial User Study
 
