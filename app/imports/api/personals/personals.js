@@ -9,19 +9,8 @@ export const Personals = new Mongo.Collection('Personals');
  * Create the schema for Stuff
  */
 export const PersonalsSchema = new SimpleSchema({
-<<<<<<< HEAD
   name: {
     label: 'name',
-=======
-  first: {
-    label: 'first',
-    type: String,
-    optional: false,
-    max: 200,
-  },
-  last: {
-    label: 'last',
->>>>>>> 1ed09861709707752566178c6c9104ffba926f68
     type: String,
     optional: false,
     max: 200,
@@ -54,11 +43,7 @@ export const PersonalsSchema = new SimpleSchema({
     label: 'goal',
     type: String,
     optional: false,
-<<<<<<< HEAD
     max: 200,
-=======
-    max: 500,
->>>>>>> 1ed09861709707752566178c6c9104ffba926f68
   },
 });
 
