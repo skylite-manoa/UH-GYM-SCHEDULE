@@ -1,41 +1,35 @@
 <template name="List_Personal_Page">
   <div class="ui container">
-
+    {{#if Template.subscriptionsReady}}
     <table style="margin-top: 20px" class="ui celled table">
       <thead>
       <tr>
-        <th>Name</th>
+        <th>First</th>
+        <th>Last</th>
         <th>Email</th>
-        <th>Contact Number</th>
+        <th>Phone</th>
         <th>Height</th>
         <th>Weight</th>
-        <th>Goal</th>
+        <th>Goals</th>
       </tr>
       </thead>
+
+      <tbody>
+      {{#each personal in personalsList}}
       <tr>
-        <td>Jingjie Wu</td>
-        <td>jingjie6@hawaii.edu</td>
-        <td>808-381-9385</td>
-        <td>173</td>
-        <td>165</td>
-        <td>Loss weight</td>
+        <td>{{personal.first}}</td>
+        <td>{{personal.last}}</td>
+        <td>{{personal.email}}</td>
+        <td>{{personal.telephone}}</td>
+        <td>{{personal.height}}</td>
+        <td>{{personal.weight}}</td>
+        <td>{{personal.goals}}</td>
       </tr>
-      <tr>
-        <td>Daniel Kim</td>
-        <td>daniel@hawaii.edu</td>
-        <td>808-123-4567</td>
-        <td>171</td>
-        <td>155</td>
-        <td>Build muscle</td>
-      </tr>
-      <tr>
-        <td>Theresa Park</td>
-        <td>theresa@hawaii.edu</td>
-        <td>808-123-8765</td>
-        <td>163</td>
-        <td>115</td>
-        <td>Keep Fit</td>
-      </tr>
+      {{/each}}
+      </tbody>
     </table>
+    {{else}}
+    {{> Loading}}
+    {{/if}}
   </div>
 </template>
