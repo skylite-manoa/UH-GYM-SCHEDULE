@@ -29,7 +29,7 @@ Warrior Scheduler is a Meteor scheduling application that allows students and fa
 ![](images/M3-not-logged-in.png)
 To log in you must use your UH login.
 
-![](images/cas.png)
+![](images/CAS.png)
 After logging in, the services will become available.
 
 ![](images/M3-logged-in.png)
