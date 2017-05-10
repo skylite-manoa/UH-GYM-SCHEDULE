@@ -167,7 +167,11 @@ Version 2 of the program was successfully deployed on [galaxy](https://galaxy.me
 <img src="images/M2deploy.png"/>
 
 ## Milestone 3
-This milestone started on April 28, 2017 and is ongoing.
+This milestone started on April 28, 2017 and has ended on May 9th, 2017.
+
+The main goal for Milestone 3 was to get our Calendar working and getting the Personal page to store contacts in the database
+
+Milestone 3 was implemented as [warrior-scheduler GitHub Milestone M3](https://github.com/skylite-manoa/warrior-scheduler/milestone/3):
 
 
 
