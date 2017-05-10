@@ -52,7 +52,7 @@ This Application was tested by 5 different students/alumni of the University of 
 The testers were given access to the warrior-scheduler.meteorapp.com link and were told to provide feedback based on their experience
 
 ### User 1 (Major: Public Health):
- "Calen dar works fine, didn't see anything rong with it, color coding would be nice. The personal pages don't seem to work out, maybe make the height and weight optional."
+ "Calendar works fine, didn't see anything wrong with it, color coding would be nice. The personal pages don't seem to work out, maybe make the height and weight optional."
  
 ### User 2 (Major: Bio, Pre-Med)
  "Events seem to disappear when clicked on and this could be flustering for the user, maybe make an option to delete instead of deleting as soon as it's clicked. As for the Personal Page, I don't think the Height and Weight options are a good choice to have. Some people might not want to give that info away because it might be sensitive for them."
