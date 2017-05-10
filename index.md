@@ -3,7 +3,7 @@
   * [Home Page](#home-page)
   * [User Guide](#user-guide)
   * [Initial User Study](#initial-user-study)
-* [Installation](#installation)
+* [Developer Guide](#developer-guide)
 * [Application design](#application-design)
   * [Directory structure](#directory-structure)
   * [Import conventions](#import-conventions)
@@ -66,8 +66,7 @@ The testers were given access to the warrior-scheduler.meteorapp.com link and we
 ### User 5 (Major: ICS)
 "The calendar seemed pretty well done, I would have liked an option to delete rather than just cliking to delete. The personal page could be improved. An option to edit a contact once it's up should be implemented, and a delete option."
  
-# Installation
-
+# Developer Guide
 First, [install Meteor](https://www.meteor.com/install).
 
 Second, [download a copy of BowFolios](https://github.com/ics-software-engineering/meteor-application-template/archive/master.zip), or clone it using git.
