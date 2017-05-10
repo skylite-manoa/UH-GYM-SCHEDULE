@@ -177,5 +177,7 @@ Milestone 3 consisted of 2 issues, and progress was managed via the [warrior-sch
 
 <img src="images/M3-Issues.png"/>
 
+Version 7 of the program was successfully deployed on [galaxy](https://galaxy.meteor.com/app/warrior-scheduler.meteorapp.com)
+<img src="images/M3-deploy.png"/>
 
 
