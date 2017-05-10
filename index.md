@@ -2,6 +2,7 @@
 * [About Warrior Scheduler](#about-warrior-scheduler)
   * [Home Page](#home-page)
   * [User Guide](#user-guide)
+  * [Initial User Study](#intital-user-study)
 * [Installation](#installation)
 * [Application design](#application-design)
   * [Directory structure](#directory-structure)
@@ -39,6 +40,26 @@ Fill out your personal information by clicking on the Personal tab.
 
 ![](images/personal.png)
 
+# Initial User Study
+
+This Application was tested by 5 different students/alumni of the University of Hawaii at Manoa:
+The testers were given access to the warrior-scheduler.meteorapp.com link and were told to provide feedback based on their experience
+
+User 1 (Major: Public Health):
+ "Calen dar works fine, didn't see anything rong with it, color coding would be nice. The personal pages don't seem to work out, maybe make the height and weight optional."
+ 
+User 2 (Major: Bio, Pre-Med)
+ "Events seem to disappear when clicked on and this could be flustering for the user, maybe make an option to delete instead of deleting as soon as it's clicked. As for the Personal Page, I don't think the Height and Weight options are a good choice to have. Some people might not want to give that info away because it might be sensitive for them."
+ 
+User 3 (Major: Bio, Pre-Nursing)
+ "Making the app mobile friendly is a must. The webpage didn't resize to my phone so I found it hard to use on mobile."
+ 
+User 4 (Major: Electrical Engineering)
+ "I liked the calendar, being able to see my planned workouts is a plus. The Personal page could be a bit better, but I can see the potential if more work is put into it."
+ 
+User 5 (Major: ICS)
+"The calendar seemed pretty well done, I would have liked an option to delete rather than just clicing to delete. The personal page could be improved. An option to edit a contact once it's up should be implemented, and a delete option."
+ 
 # Installation
 
 First, [install Meteor](https://www.meteor.com/install).
