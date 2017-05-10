@@ -3,9 +3,8 @@
   <div style="margin-top:20px" class="ui personal container">
 
     <form class="ui form contact-data-form {{ errorClass }}">
-      <h4 class="ui dividing header">Personal Page</h4>
+      <h4 class="ui dividing header">Add Gym Buddy</h4>
       <div class="field">
-        <label>Name</label>
         <div class="two fields">
           {{> Text_Form_Control label="First" required=true }}
           {{> Text_Form_Control label="Last" required=true }}
@@ -13,7 +12,6 @@
       </div>
 
       <div class="field">
-        <label>UH Email/Contact Number</label>
         <div class="two fields">
           {{> Text_Form_Control label="Email" required=true }}
           {{> Text_Form_Control label="Telephone" required=true}}
@@ -21,7 +19,6 @@
       </div>
 
       <div class="field">
-        <label>Height/Weight</label>
         <div class="two fields">
           {{> Text_Form_Control label="Height" required=true}}
           {{> Text_Form_Control label="Weight" required=true}}
@@ -29,7 +26,6 @@
       </div>
 
       <div class="field">
-        <label>Goal</label>
         {{> TextArea_Form_Control label="Goal" required=true}}
       </div>
 
