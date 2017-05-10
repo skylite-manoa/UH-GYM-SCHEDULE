@@ -36,6 +36,7 @@ After logging in, the services will become available.
 Use the calendar to add in gym events and workouts.
 
 ![](images/M3-Calendar.png)
+![](images/M3-Add-Event.png)
 Fill out your personal information by clicking on the Personal tab.
 
 ![](images/M3-Personal.png)
@@ -207,3 +208,8 @@ Version 7 of the program was successfully deployed on [galaxy](https://galaxy.me
 Commits were tracked via the [warrior-scheduler GitHub Project M3](https://github.com/skylite-manoa/warrior-scheduler/network):
 <img src="images/M3-Graph.png"/>
 
+<img src="images/M3-not-logged-in.png"/>
+<img src="images/M3-logged-in.png"/>
+<img src="images/M3-Calendar.png"/>
+<img src="images/M3-Personal.png"/>
+<img src="images/M3-List-Personal.png"/>
